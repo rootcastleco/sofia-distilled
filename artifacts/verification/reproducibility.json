@@ -1,0 +1,6 @@
+{
+  "same_environment": true,
+  "array_count": 810,
+  "all_arrays_exactly_equal": true,
+  "source": "independent rerun of verification CLI with pinned seed and same NumPy environment"
+}

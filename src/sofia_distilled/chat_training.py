@@ -175,7 +175,7 @@ def evaluate(model, rows, cache, device, temperature, anchors):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=Path("artifacts/chat"))
-    parser.add_argument("--layers", type=int, default=12)
+    parser.add_argument("--layers", type=int, default=18)
     parser.add_argument("--epochs", type=int, default=4)
     parser.add_argument("--max-length", type=int, default=192)
     parser.add_argument("--max-new-tokens", type=int, default=96)
@@ -234,6 +234,8 @@ def main():
     for i, layer in enumerate(student.model.layers):
         layer.self_attn.layer_idx = i
     student.config.num_hidden_layers = args.layers
+    if student.config.layer_types is not None:
+        student.config.layer_types = [student.config.layer_types[i] for i in selected_layers]
     student.config.max_window_layers = args.layers
     student.config.use_cache = False
     del teacher
@@ -301,6 +303,7 @@ def main():
                 )
         val = evaluate(student, val_rows, cache, device, args.temperature, anchors)
         history.append({"epoch": epoch + 1, "steps": steps, **val})
+        write_json(args.output / "training_history.json", history)
         print(f"Validation epoch {epoch + 1}: {val}", flush=True)
         if val["response_cross_entropy"] < best:
             best = val["response_cross_entropy"]
@@ -310,11 +313,20 @@ def main():
     from peft import PeftModel
 
     base = student.unload()
+    if hasattr(base, "peft_config"):
+        delattr(base, "peft_config")
     student = PeftModel.from_pretrained(base, args.output / "best_adapter").merge_and_unload()
     final_val = evaluate(student, val_rows, cache, device, args.temperature, anchors)
     final_test = evaluate(student, test_rows, cache, device, args.temperature, anchors)
     student.config.use_cache = True
-    student.generation_config.do_sample = False
+    from transformers import GenerationConfig
+
+    student.generation_config = GenerationConfig(
+        do_sample=False,
+        bos_token_id=tokenizer.bos_token_id,
+        eos_token_id=tokenizer.eos_token_id,
+        pad_token_id=tokenizer.eos_token_id,
+    )
     student.save_pretrained(args.output, safe_serialization=True)
     tokenizer.save_pretrained(args.output)
     # Reload saved artifacts for qualitative test samples, verifying ordinary Transformers loading.

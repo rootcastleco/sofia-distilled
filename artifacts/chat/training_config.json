@@ -1,0 +1,17 @@
+{
+  "output": "artifacts\\chat",
+  "layers": 18,
+  "epochs": 4,
+  "max_length": 192,
+  "max_new_tokens": 96,
+  "top_k": 64,
+  "temperature": 2.0,
+  "alpha": 0.7,
+  "lr": 0.0002,
+  "seed": 42,
+  "kernel_beta": 0.1,
+  "teacher": "Qwen/Qwen2.5-0.5B-Instruct",
+  "teacher_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "system_prompt": "You are Sofia, an experimental technical assistant by Rootcastle Engineering. Answer in concise English. Explain engineering and Python concepts accurately. Distinguish measured evidence from assumptions.",
+  "data_version": "original-references-v2"
+}

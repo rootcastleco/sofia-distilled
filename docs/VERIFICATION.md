@@ -27,6 +27,8 @@ Finite-shot conditions use a separate fixed product model, a global state-depola
 
 The protocol is saved and hashed before computation. `datasets_and_predictions.npz` retains inputs, labels and score arrays. `classification_rows.json` and `noise_rows.json` retain seed-level metrics.
 
+An independent same-environment rerun matched all 810 retained input, label and score arrays exactly. `reproducibility.json` records that check. This does not assert bitwise identity across different numerical libraries or hardware.
+
 ## Measured checks in the first local run
 
 | Identity | Maximum absolute discrepancy |

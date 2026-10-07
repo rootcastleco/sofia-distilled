@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.npz binary
+*.npy binary
+*.safetensors binary
+*.jpg binary
+artifacts/** -text

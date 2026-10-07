@@ -1,0 +1,38 @@
+[
+  {
+    "epoch": 1,
+    "steps": 160,
+    "response_cross_entropy": 4.424516498315625,
+    "perplexity": 83.47243839906584,
+    "coarsened_kl_times_temperature_squared": 0.8245140646652478,
+    "product_kernel_alignment_mse": 0.0011653018045097536,
+    "response_tokens": 656
+  },
+  {
+    "epoch": 2,
+    "steps": 320,
+    "response_cross_entropy": 4.227318358130571,
+    "perplexity": 68.533204025973,
+    "coarsened_kl_times_temperature_squared": 0.6826638811972083,
+    "product_kernel_alignment_mse": 0.0018209253009955296,
+    "response_tokens": 656
+  },
+  {
+    "epoch": 3,
+    "steps": 480,
+    "response_cross_entropy": 4.255460899050643,
+    "perplexity": 70.48929815323396,
+    "coarsened_kl_times_temperature_squared": 0.7889215626367708,
+    "product_kernel_alignment_mse": 0.001776866651642017,
+    "response_tokens": 656
+  },
+  {
+    "epoch": 4,
+    "steps": 640,
+    "response_cross_entropy": 4.218345158710712,
+    "perplexity": 67.9209927740371,
+    "coarsened_kl_times_temperature_squared": 0.7443355387303887,
+    "product_kernel_alignment_mse": 0.0012372681662005873,
+    "response_tokens": 656
+  }
+]

@@ -22,6 +22,11 @@ def stage(kind):
             "model.safetensors",
             "tokenizer.json",
             "tokenizer_config.json",
+            "chat_template.jinja",
+            "special_tokens_map.json",
+            "added_tokens.json",
+            "vocab.json",
+            "merges.txt",
             "generation_config.json",
             "dataset.jsonl",
             "training_config.json",
@@ -42,6 +47,10 @@ def stage(kind):
     shutil.copy2(
         ROOT / "artifacts" / "verification" / "report.json",
         destination / "verification_report.json",
+    )
+    shutil.copy2(
+        ROOT / "artifacts" / "verification" / "reproducibility.json",
+        destination / "reproducibility.json",
     )
     if kind == "edge":
         # A standalone NumPy loader is also included in the model repo.

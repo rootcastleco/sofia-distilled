@@ -1,0 +1,22 @@
+[
+  {
+    "prompt": "Explain Welch power spectral density estimation in three concise sentences for a junior engineer.",
+    "reference_response": "Welch PSD averages periodograms of overlapping windowed segments. Averaging reduces estimator variance at the cost of segment-limited frequency resolution. Use power-per-hertz units and correct sampling-rate and window-energy normalization.",
+    "student_response": "Welch power spectral density estimation is a statistical analysis of a signal's amplitude spectrum. A Gaussian distribution has a maximum power spectral density of 2. In ideal conditions, the noiseless power spectral density is approximately 1. This is the maximum power spectral density for ideal noise."
+  },
+  {
+    "prompt": "Explain LoRA and low-rank parameter adaptation in three concise sentences for a junior engineer.",
+    "reference_response": "LoRA trains low-rank updates to selected weight matrices while freezing the base model. This reduces trainable parameters and optimizer memory. A merged adapter changes the full checkpoint and still depends on the original pretrained weights.",
+    "student_response": "LoRA is a widely used parameter adaptation technique in machine learning, where changing the scale of the feature matrix changes the degree of the correlation between the training set. Compare it with its exact training set and the held-out test set."
+  },
+  {
+    "prompt": "Explain the difference between a list and a NumPy array in three concise sentences for a junior engineer.",
+    "reference_response": "A Python list is a general sequence of object references; a NumPy array is a typed numerical container. NumPy arrays support vectorized arithmetic and explicit shapes. Multiplying a list repeats it, while multiplying a numeric array scales its elements.",
+    "student_response": "A list is a one-dimensional array, and a NumPy array is a multi-dimensional array. A list can be represented by a single value, while a NumPy array has multiple dimensions. The NumPy array needs to be in the same shape as the Python array, but with the correct shape."
+  },
+  {
+    "prompt": "Explain default-deny authorization for control commands in three concise sentences for a junior engineer.",
+    "reference_response": "Default-deny authorization rejects commands unless every required permission and condition is satisfied. Check operator authorization, command allowlists, freshness and interlocks before execution. Missing context must not silently become approval.",
+    "student_response": "In control commands, the system's default-deny authorization is used for authorized control commands. This can be used for manual control and physical interlocks. It does not establish a physical interlock."
+  }
+]

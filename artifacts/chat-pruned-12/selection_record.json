@@ -1,0 +1,13 @@
+{
+  "candidate_layers": 12,
+  "training_epochs": 4,
+  "optimization_steps": 640,
+  "data_version": "original-references-v2",
+  "final_validation_response_cross_entropy": 6.182507134065395,
+  "final_validation_perplexity": 484.20440118565034,
+  "final_validation_product_kernel_alignment_mse": 0.0007682839662643013,
+  "validation_response_tokens": 656,
+  "source": "observed training stdout; the trained adapter remains archived locally",
+  "status": "candidate excluded based on validation language loss; final export failed on incompatible inherited generation settings",
+  "selection_policy": "compare a second 18-layer candidate with identical data, learning rate and four-epoch budget; select using validation cross-entropy"
+}

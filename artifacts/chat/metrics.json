@@ -1,0 +1,101 @@
+{
+  "status": "experimental-pilot",
+  "teacher": "Qwen/Qwen2.5-0.5B-Instruct",
+  "teacher_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "initialization": "selected pretrained teacher layers, embeddings, final norm and tied head",
+  "selected_teacher_layers_zero_based": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    22,
+    23
+  ],
+  "teacher_parameters": 494032768,
+  "student_parameters": 404558464,
+  "parameter_compression_ratio": 1.221165324574695,
+  "trainable_lora_parameters": 6598656,
+  "split": {
+    "train": 160,
+    "validation": 16,
+    "test": 16
+  },
+  "split_method": "disjoint original topic families; four prompt styles per reference topic",
+  "baseline_validation": {
+    "response_cross_entropy": 8.80019211042218,
+    "perplexity": 6635.5186361257,
+    "coarsened_kl_times_temperature_squared": 4.535646666840809,
+    "product_kernel_alignment_mse": 0.02475343681162929,
+    "response_tokens": 656
+  },
+  "baseline_test": {
+    "response_cross_entropy": 9.24253755874848,
+    "perplexity": 10327.211241741448,
+    "coarsened_kl_times_temperature_squared": 4.382519133305282,
+    "product_kernel_alignment_mse": 0.20222297462234484,
+    "response_tokens": 712
+  },
+  "final_validation": {
+    "response_cross_entropy": 4.2188467550568465,
+    "perplexity": 67.9550702416905,
+    "coarsened_kl_times_temperature_squared": 0.7442473833699051,
+    "product_kernel_alignment_mse": 0.0012354396374398564,
+    "response_tokens": 656
+  },
+  "final_test": {
+    "response_cross_entropy": 4.4324513995245605,
+    "perplexity": 84.13741873900929,
+    "coarsened_kl_times_temperature_squared": 0.685093670581164,
+    "product_kernel_alignment_mse": 0.0188787064633217,
+    "response_tokens": 712
+  },
+  "teacher_test": {
+    "response_cross_entropy": 4.2087303761685835,
+    "perplexity": 67.27107660651207
+  },
+  "best_epoch": 4,
+  "optimization_steps": 640,
+  "distillation": "0.3 assistant-token CE + 0.7 T^2 KL(top-64 plus tail) + 0.1 product-kernel alignment",
+  "kernel_method": "fixed 4-D Gaussian sketch, 2*atan encoding, 8 training-only landmarks, rotation scale 0.5",
+  "kernel_beta": 0.1,
+  "temperature": 2.0,
+  "top_k": 64,
+  "architecture_selection": {
+    "candidates": [
+      12,
+      18
+    ],
+    "metric": "validation reference cross-entropy",
+    "candidate_12_cross_entropy": 6.182507134065395,
+    "selected_layers": 18
+  },
+  "quantum_hardware": false,
+  "principle_source": "https://www.academia.edu/175377730/Quantum_Artificial_Intelligence_with_Verifiable_Kernels",
+  "elapsed_seconds_including_export_recovery": 355.1003918647766,
+  "environment": {
+    "torch": "2.7.1+cu118",
+    "cuda": "11.8",
+    "numpy": "2.5.3",
+    "device": "NVIDIA GeForce RTX 2060"
+  },
+  "limitations": [
+    "48 original AI-assisted reference answers; no external expert review",
+    "Narrow reference likelihood does not establish factual, coding or safety quality",
+    "No independent language benchmark or kernel-specific ablation",
+    "Inherited Qwen pretraining; not foundation pretraining from random initialization",
+    "Classical kernel alignment extension; no quantum advantage claim"
+  ],
+  "export_verification": "merged safetensors reloaded through ordinary Transformers; validation metrics recomputed"
+}

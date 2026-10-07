@@ -14,5 +14,10 @@ artifacts/chat/checkpoint-*/
 artifacts/chat/teacher_cache/
 artifacts/chat/best_adapter/
 artifacts/chat-generated-draft/
+artifacts/chat-pruned-12/teacher_cache/
+artifacts/chat-pruned-12/best_adapter/
+artifacts/chat-pruned-12/model.safetensors
+artifacts/chat-pruned-12/*
+!artifacts/chat-pruned-12/selection_record.json
 artifacts/edge/
 .cache/

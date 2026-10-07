@@ -71,7 +71,7 @@ The combined command returns structured Edge evidence and a separately marked, u
 ```bash
 # Set OPENBLAS_NUM_THREADS=1 and OMP_NUM_THREADS=1 for CPU experiment reproducibility.
 python -m sofia_distilled.kernel_training --output artifacts/edge-kernel --epochs 120
-python -m sofia_distilled.chat_training --output artifacts/chat --layers 12 --epochs 4
+python -m sofia_distilled.chat_training --output artifacts/chat --layers 18 --epochs 4
 python -m sofia_distilled.verification --output reproduced-verification --replicates 30
 pytest -q
 ```
@@ -83,6 +83,8 @@ pytest -q
 See [verification](docs/VERIFICATION.md), [Edge model card](model_cards/edge.md), [Chat model card](model_cards/chat.md), and machine-readable reports under `artifacts/`.
 
 The signal dataset is synthetic. High accuracy on these simple formulas does not establish field diagnostic accuracy. The supervised-only Edge control is retained and can outperform the distilled model. Chat uses 48 original reference answers across 192 prompts; the teacher provides soft-token targets. Reference perplexity on this small bank does not establish independent factual accuracy. Sofia Chat inherits Qwen pretraining; this project does not claim foundation-model pretraining from random initialization.
+
+The released 18-layer Chat checkpoint has approximately 405 million parameters (18.11% fewer than the teacher). Held-out reference perplexity improves from 10,327.21 after pruning to 84.14 after distillation, but actual held-out generations still contain factual errors. It is an experimental checkpoint for auditing and further research, rather than a dependable engineering adviser.
 
 ## Publish a verified bundle
 

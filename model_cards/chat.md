@@ -18,11 +18,13 @@ tags:
 
 # Sofia Chat Distilled v0.1
 
-An experimental English technical assistant built by pruning and distilling **Qwen2.5-0.5B-Instruct**. Selected teacher blocks initialize a 12-layer student. The student retains the teacher's embeddings and tokenizer. LoRA learns from teacher output distributions and a product-rotation kernel alignment objective; the selected adapter is merged into standard Transformers weights.
+An experimental English technical assistant built by pruning and distilling **Qwen2.5-0.5B-Instruct**. Selected teacher blocks initialize an 18-layer student. The student retains the teacher's embeddings and tokenizer. LoRA learns from teacher output distributions and a product-rotation kernel alignment objective; the selected adapter is merged into standard Transformers weights.
 
 Developed by Rootcastle Engineering & Innovation. [Source and reproducible training](https://github.com/rootcastleco/sofia-distilled).
 
 This model inherits Qwen pretraining. It is not a foundation model pretrained from random initialization, and the narrow pilot dataset does not establish general language or engineering competence.
+
+**Observed quality limitation:** held-out generations contain factual errors and imprecise definitions. For example, a test answer incorrectly describes a Python list as a one-dimensional array. This checkpoint is a reproducible distillation experiment, not a reliable technical adviser. Inspect the complete published `test_generations.json`.
 
 ## Data and objective
 
@@ -30,9 +32,17 @@ This model inherits Qwen pretraining. It is not a foundation model pretrained fr
 
 Training uses assistant-token hard cross-entropy, temperature-scaled KL over teacher top-64 tokens plus an aggregated tail bucket, and a kernel alignment penalty. The latter compares fixed four-dimensional sketches of response hidden states against eight teacher landmarks chosen only from training samples. It is an engineering extension inspired by [Quantum Artificial Intelligence with Verifiable Kernels](https://www.academia.edu/175377730/Quantum_Artificial_Intelligence_with_Verifiable_Kernels); the manuscript does not prove a language-model benefit for this extension.
 
-Teacher revision: `7ae557604adf67be50417f59c2c2f167def9a775`. Default run: 12 selected layers, rank-16 LoRA, four epochs, learning rate 0.0002, sequence length 192, seed 42. Exact configuration and measured metrics accompany the checkpoint.
+Teacher revision: `7ae557604adf67be50417f59c2c2f167def9a775`. Default run: 18 selected layers, rank-16 LoRA, four epochs, learning rate 0.0002, sequence length 192, seed 42. Two architecture candidates, 12 and 18 layers, used the same training budget. The 18-layer model was selected by lower validation reference cross-entropy. Exact configuration and measured metrics accompany the checkpoint.
 
 ## Evaluation
+
+| Measurement | Pruned baseline | Distilled checkpoint |
+| --- | ---: | ---: |
+| Validation reference perplexity | 6,635.52 | 67.96 |
+| Test reference perplexity | 10,327.21 | 84.14 |
+| Test product-kernel alignment MSE | 0.202223 | 0.018879 |
+
+Teacher reference test perplexity is approximately 67.27. The student has 404,558,464 parameters, compared with 494,032,768 in the teacher: **18.11% fewer parameters**. 6,598,656 LoRA parameters were optimized during 640 steps. The full merged FP16 safetensors file is approximately 809 MB. The best checkpoint is epoch 4, selected using validation loss.
 
 `metrics.json` reports response cross-entropy, perplexity and kernel-alignment MSE for the pruned baseline and the selected distilled model. `test_generations.json` exposes actual held-out reference and student answers. Token likelihood on this narrow reference bank is not an independent factuality, coding or safety benchmark. No broad quality advantage or quantum advantage is claimed.
 

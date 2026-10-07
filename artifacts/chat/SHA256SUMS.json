@@ -1,0 +1,18 @@
+{
+  "added_tokens.json": "f0acedf99e19ec0a5b797ffbd0b94328172ccd90f7f385bbc521cda2701b03ab",
+  "chat_template.jinja": "8aa40ce145adb73cb3a75194dc0224702a95850ec5275cabb728496bbd749fc6",
+  "config.json": "65a6aa9d1d2caad921073198144e88e5585e622c7045f97b4989e3a4780d6864",
+  "dataset.jsonl": "969613af5700f703208629fd37c9a46daae8fd97ae75ec1233139a34c5fff3ff",
+  "generation_config.json": "489ff17186f0ec574d715cf1859914540afa089d35f6e544ffd11ce75f31ed8c",
+  "kernel_landmarks.npy": "2216f4346623fd0b7fa8be4b9634fb4c5156496fbeab94b05777aafa4f2fdae8",
+  "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+  "metrics.json": "bf7bc58c560b516abf5da532ba4ef7a03f6a760528a29ba311ba7f5a84df823a",
+  "model.safetensors": "9c0e2871b09879b3d814361d35e727629dfce282981fc23eabcef8568cbbfbb0",
+  "special_tokens_map.json": "57255613bbe23c9497211ca68561ff429a51e871dbaf5a59998fa4c8f7fe168a",
+  "test_generations.json": "aed2957acf96964227708f2f5bcf0af2f86b8a1a8b4504fb91c0d8df06836cea",
+  "tokenizer.json": "9c5ae00e602b8860cbd784ba82a8aa14e8feecec692e7076590d014d7b7fdafa",
+  "tokenizer_config.json": "5fd4cea2574beb6b70ba31582179880d331b723f5b5119ee67c29d45b983f7be",
+  "training_config.json": "3058dbb878878a270c2367f4135ec79c9c6348ef76f3e71c6677bd782b347897",
+  "training_history.json": "6dd28292e006a9e6e7bf38be05d764ac7c8461455adce990d8360ccfeda811d0",
+  "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+}
