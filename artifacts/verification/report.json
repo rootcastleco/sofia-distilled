@@ -1,0 +1,228 @@
+{
+  "protocol_sha256": "e96a631fba939c9c4ff0159970af0dedf250ae47e0a257e788952facc19302fe",
+  "identity_audit": {
+    "tested_dimensions": [
+      1,
+      2,
+      4,
+      6,
+      8
+    ],
+    "max_absolute_errors": {
+      "state_overlap": 1.5543122344752192e-15,
+      "explicit_classical_features": 1.887379141862766e-15,
+      "shared_terminal_unitary": 1.7763568394002505e-15,
+      "density_depolarization": 8.881784197001252e-16,
+      "matched_regularization_predictions": 1.3722356584366935e-13
+    },
+    "tolerance": 1e-10,
+    "passed": true
+  },
+  "classification": {
+    "linear": {
+      "linear": {
+        "mean": 0.8990547506759446,
+        "pointwise_95_percent_bootstrap_ci": [
+          0.8905778919494346,
+          0.9080410457070308
+        ]
+      },
+      "rbf": {
+        "mean": 0.8915385238696076,
+        "pointwise_95_percent_bootstrap_ci": [
+          0.8808848859401918,
+          0.9017696004743362
+        ]
+      },
+      "product": {
+        "mean": 0.894664148738211,
+        "pointwise_95_percent_bootstrap_ci": [
+          0.8845207440158689,
+          0.9027463739375565
+        ]
+      },
+      "paired_product_minus_rbf": {
+        "mean": 0.003125624868603368,
+        "pointwise_95_percent_bootstrap_ci": [
+          -0.0018605010807794804,
+          0.008131033044835976
+        ]
+      }
+    },
+    "parity": {
+      "linear": {
+        "mean": 0.5028841874243367,
+        "pointwise_95_percent_bootstrap_ci": [
+          0.49080839380402325,
+          0.519132485287299
+        ]
+      },
+      "rbf": {
+        "mean": 0.8203626608192057,
+        "pointwise_95_percent_bootstrap_ci": [
+          0.8034552187602456,
+          0.8341240758295138
+        ]
+      },
+      "product": {
+        "mean": 0.822049461514475,
+        "pointwise_95_percent_bootstrap_ci": [
+          0.8126506544004204,
+          0.8314817390676141
+        ]
+      },
+      "paired_product_minus_rbf": {
+        "mean": 0.0016868006952691602,
+        "pointwise_95_percent_bootstrap_ci": [
+          -0.010633324172694792,
+          0.015101091355045044
+        ]
+      }
+    },
+    "periodic": {
+      "linear": {
+        "mean": 0.4985395120653596,
+        "pointwise_95_percent_bootstrap_ci": [
+          0.48605662481431083,
+          0.511621684499136
+        ]
+      },
+      "rbf": {
+        "mean": 0.7488281954140097,
+        "pointwise_95_percent_bootstrap_ci": [
+          0.7345789112454911,
+          0.7623602798417655
+        ]
+      },
+      "product": {
+        "mean": 0.7763930847833862,
+        "pointwise_95_percent_bootstrap_ci": [
+          0.7594338297594408,
+          0.7928698152772927
+        ]
+      },
+      "paired_product_minus_rbf": {
+        "mean": 0.027564889369376365,
+        "pointwise_95_percent_bootstrap_ci": [
+          0.013405835960971902,
+          0.04203532549312493
+        ]
+      }
+    }
+  },
+  "finite_shot": [
+    {
+      "p": 0,
+      "shots": 128,
+      "mean": 0.7421184311986793,
+      "pointwise_95_percent_bootstrap_ci": [
+        0.7301282505456886,
+        0.7532273161205679
+      ]
+    },
+    {
+      "p": 0,
+      "shots": 512,
+      "mean": 0.7786768127491859,
+      "pointwise_95_percent_bootstrap_ci": [
+        0.7693467864122973,
+        0.7880595745949988
+      ]
+    },
+    {
+      "p": 0,
+      "shots": 2048,
+      "mean": 0.7933635911406733,
+      "pointwise_95_percent_bootstrap_ci": [
+        0.7819439386598241,
+        0.8047489585994149
+      ]
+    },
+    {
+      "p": 0,
+      "shots": 8192,
+      "mean": 0.7966825902757054,
+      "pointwise_95_percent_bootstrap_ci": [
+        0.785557644566881,
+        0.8078337606133397
+      ]
+    },
+    {
+      "p": 0.5,
+      "shots": 128,
+      "mean": 0.5979244230828672,
+      "pointwise_95_percent_bootstrap_ci": [
+        0.587549767394819,
+        0.6090187123148318
+      ]
+    },
+    {
+      "p": 0.5,
+      "shots": 512,
+      "mean": 0.6787137092666977,
+      "pointwise_95_percent_bootstrap_ci": [
+        0.6686411049014853,
+        0.6892424197358125
+      ]
+    },
+    {
+      "p": 0.5,
+      "shots": 2048,
+      "mean": 0.7434465305258456,
+      "pointwise_95_percent_bootstrap_ci": [
+        0.7325316608179067,
+        0.7537586653898614
+      ]
+    },
+    {
+      "p": 0.5,
+      "shots": 8192,
+      "mean": 0.7715403512151265,
+      "pointwise_95_percent_bootstrap_ci": [
+        0.7602132668326237,
+        0.7830647138901051
+      ]
+    },
+    {
+      "p": 0.75,
+      "shots": 128,
+      "mean": 0.5154667269959292,
+      "pointwise_95_percent_bootstrap_ci": [
+        0.503913330538118,
+        0.527168812563535
+      ]
+    },
+    {
+      "p": 0.75,
+      "shots": 512,
+      "mean": 0.5482200122659916,
+      "pointwise_95_percent_bootstrap_ci": [
+        0.5393337922100797,
+        0.5574780950359814
+      ]
+    },
+    {
+      "p": 0.75,
+      "shots": 2048,
+      "mean": 0.5972580764837044,
+      "pointwise_95_percent_bootstrap_ci": [
+        0.5866191680169636,
+        0.6077339829870697
+      ]
+    },
+    {
+      "p": 0.75,
+      "shots": 8192,
+      "mean": 0.670901263655826,
+      "pointwise_95_percent_bootstrap_ci": [
+        0.658262633433527,
+        0.6828841769463315
+      ]
+    }
+  ],
+  "replicates": 30,
+  "quantum_hardware": false,
+  "interpretation": "Any product-kernel performance is shared by its exact classical equivalent; no quantum advantage claim",
+  "scope": "independent adapted implementation; not a reproduction of original seed-level archive",
+  "intervals": "pointwise percentile bootstrap over independent simulator replicates; 2000 resamples; no significance testing"
+}

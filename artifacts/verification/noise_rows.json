@@ -1,0 +1,2882 @@
+[
+  {
+    "replicate": 0,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8212328767123288,
+    "shot_balanced_accuracy": 0.7564134495641345
+  },
+  {
+    "replicate": 0,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8212328767123288,
+    "shot_balanced_accuracy": 0.8064757160647571
+  },
+  {
+    "replicate": 0,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8212328767123288,
+    "shot_balanced_accuracy": 0.8223536737235367
+  },
+  {
+    "replicate": 0,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8212328767123288,
+    "shot_balanced_accuracy": 0.8337484433374844
+  },
+  {
+    "replicate": 0,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 2.1094237467877974e-15,
+    "ideal_balanced_accuracy": 0.8212328767123288,
+    "shot_balanced_accuracy": 0.6800124533001246
+  },
+  {
+    "replicate": 0,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 2.1094237467877974e-15,
+    "ideal_balanced_accuracy": 0.8212328767123288,
+    "shot_balanced_accuracy": 0.6958904109589041
+  },
+  {
+    "replicate": 0,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 2.1094237467877974e-15,
+    "ideal_balanced_accuracy": 0.8212328767123288,
+    "shot_balanced_accuracy": 0.7495018679950187
+  },
+  {
+    "replicate": 0,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 2.1094237467877974e-15,
+    "ideal_balanced_accuracy": 0.8212328767123288,
+    "shot_balanced_accuracy": 0.7848692403486924
+  },
+  {
+    "replicate": 0,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 1.6930901125533637e-15,
+    "ideal_balanced_accuracy": 0.8212328767123288,
+    "shot_balanced_accuracy": 0.5501245330012453
+  },
+  {
+    "replicate": 0,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 1.6930901125533637e-15,
+    "ideal_balanced_accuracy": 0.8212328767123288,
+    "shot_balanced_accuracy": 0.5487546699875467
+  },
+  {
+    "replicate": 0,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 1.6930901125533637e-15,
+    "ideal_balanced_accuracy": 0.8212328767123288,
+    "shot_balanced_accuracy": 0.6186799501867994
+  },
+  {
+    "replicate": 0,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 1.6930901125533637e-15,
+    "ideal_balanced_accuracy": 0.8212328767123288,
+    "shot_balanced_accuracy": 0.6958904109589041
+  },
+  {
+    "replicate": 1,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7854178111456998,
+    "shot_balanced_accuracy": 0.6994750656167978
+  },
+  {
+    "replicate": 1,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7854178111456998,
+    "shot_balanced_accuracy": 0.7736067875236525
+  },
+  {
+    "replicate": 1,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7854178111456998,
+    "shot_balanced_accuracy": 0.7660379661844595
+  },
+  {
+    "replicate": 1,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7854178111456998,
+    "shot_balanced_accuracy": 0.7816028810352194
+  },
+  {
+    "replicate": 1,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 9.992007221626409e-16,
+    "ideal_balanced_accuracy": 0.7854178111456998,
+    "shot_balanced_accuracy": 0.5313434657877067
+  },
+  {
+    "replicate": 1,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 9.992007221626409e-16,
+    "ideal_balanced_accuracy": 0.7854178111456998,
+    "shot_balanced_accuracy": 0.6878471586400537
+  },
+  {
+    "replicate": 1,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 9.992007221626409e-16,
+    "ideal_balanced_accuracy": 0.7854178111456998,
+    "shot_balanced_accuracy": 0.7269730818531404
+  },
+  {
+    "replicate": 1,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 9.992007221626409e-16,
+    "ideal_balanced_accuracy": 0.7854178111456998,
+    "shot_balanced_accuracy": 0.7541048647988768
+  },
+  {
+    "replicate": 1,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 6.661338147750939e-15,
+    "ideal_balanced_accuracy": 0.7854178111456998,
+    "shot_balanced_accuracy": 0.4922785814563877
+  },
+  {
+    "replicate": 1,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 6.661338147750939e-15,
+    "ideal_balanced_accuracy": 0.7854178111456998,
+    "shot_balanced_accuracy": 0.5590245986693524
+  },
+  {
+    "replicate": 1,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 6.661338147750939e-15,
+    "ideal_balanced_accuracy": 0.7854178111456998,
+    "shot_balanced_accuracy": 0.546664225111396
+  },
+  {
+    "replicate": 1,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 6.661338147750939e-15,
+    "ideal_balanced_accuracy": 0.7854178111456998,
+    "shot_balanced_accuracy": 0.6019044131111517
+  },
+  {
+    "replicate": 2,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7654753131908623,
+    "shot_balanced_accuracy": 0.7358142962417096
+  },
+  {
+    "replicate": 2,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7654753131908623,
+    "shot_balanced_accuracy": 0.7667035126504544
+  },
+  {
+    "replicate": 2,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7654753131908623,
+    "shot_balanced_accuracy": 0.7581675264062884
+  },
+  {
+    "replicate": 2,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7654753131908623,
+    "shot_balanced_accuracy": 0.7727216900024565
+  },
+  {
+    "replicate": 2,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.7654753131908623,
+    "shot_balanced_accuracy": 0.5906411201179071
+  },
+  {
+    "replicate": 2,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.7654753131908623,
+    "shot_balanced_accuracy": 0.6439449766642102
+  },
+  {
+    "replicate": 2,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.7654753131908623,
+    "shot_balanced_accuracy": 0.6632277081798084
+  },
+  {
+    "replicate": 2,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.7654753131908623,
+    "shot_balanced_accuracy": 0.7098378776713339
+  },
+  {
+    "replicate": 2,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.7654753131908623,
+    "shot_balanced_accuracy": 0.5289855072463768
+  },
+  {
+    "replicate": 2,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.7654753131908623,
+    "shot_balanced_accuracy": 0.5423728813559322
+  },
+  {
+    "replicate": 2,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.7654753131908623,
+    "shot_balanced_accuracy": 0.5580324244657332
+  },
+  {
+    "replicate": 2,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.7654753131908623,
+    "shot_balanced_accuracy": 0.6548145418816016
+  },
+  {
+    "replicate": 3,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8161764705882353,
+    "shot_balanced_accuracy": 0.7985294117647059
+  },
+  {
+    "replicate": 3,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8161764705882353,
+    "shot_balanced_accuracy": 0.7968137254901961
+  },
+  {
+    "replicate": 3,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8161764705882353,
+    "shot_balanced_accuracy": 0.8193627450980392
+  },
+  {
+    "replicate": 3,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8161764705882353,
+    "shot_balanced_accuracy": 0.8198529411764706
+  },
+  {
+    "replicate": 3,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.3322676295501878e-15,
+    "ideal_balanced_accuracy": 0.8161764705882353,
+    "shot_balanced_accuracy": 0.6242647058823529
+  },
+  {
+    "replicate": 3,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.3322676295501878e-15,
+    "ideal_balanced_accuracy": 0.8161764705882353,
+    "shot_balanced_accuracy": 0.6551470588235294
+  },
+  {
+    "replicate": 3,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.3322676295501878e-15,
+    "ideal_balanced_accuracy": 0.8161764705882353,
+    "shot_balanced_accuracy": 0.7480392156862745
+  },
+  {
+    "replicate": 3,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.3322676295501878e-15,
+    "ideal_balanced_accuracy": 0.8161764705882353,
+    "shot_balanced_accuracy": 0.8208333333333333
+  },
+  {
+    "replicate": 3,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 2.886579864025407e-15,
+    "ideal_balanced_accuracy": 0.8161764705882353,
+    "shot_balanced_accuracy": 0.5698529411764706
+  },
+  {
+    "replicate": 3,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 2.886579864025407e-15,
+    "ideal_balanced_accuracy": 0.8161764705882353,
+    "shot_balanced_accuracy": 0.5450980392156863
+  },
+  {
+    "replicate": 3,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 2.886579864025407e-15,
+    "ideal_balanced_accuracy": 0.8161764705882353,
+    "shot_balanced_accuracy": 0.6389705882352941
+  },
+  {
+    "replicate": 3,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 2.886579864025407e-15,
+    "ideal_balanced_accuracy": 0.8161764705882353,
+    "shot_balanced_accuracy": 0.7063725490196078
+  },
+  {
+    "replicate": 4,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.80078125,
+    "shot_balanced_accuracy": 0.78125
+  },
+  {
+    "replicate": 4,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.80078125,
+    "shot_balanced_accuracy": 0.79296875
+  },
+  {
+    "replicate": 4,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.80078125,
+    "shot_balanced_accuracy": 0.8125
+  },
+  {
+    "replicate": 4,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.80078125,
+    "shot_balanced_accuracy": 0.8125
+  },
+  {
+    "replicate": 4,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.1102230246251565e-15,
+    "ideal_balanced_accuracy": 0.80078125,
+    "shot_balanced_accuracy": 0.62890625
+  },
+  {
+    "replicate": 4,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.1102230246251565e-15,
+    "ideal_balanced_accuracy": 0.80078125,
+    "shot_balanced_accuracy": 0.76171875
+  },
+  {
+    "replicate": 4,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.1102230246251565e-15,
+    "ideal_balanced_accuracy": 0.80078125,
+    "shot_balanced_accuracy": 0.80859375
+  },
+  {
+    "replicate": 4,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.1102230246251565e-15,
+    "ideal_balanced_accuracy": 0.80078125,
+    "shot_balanced_accuracy": 0.80078125
+  },
+  {
+    "replicate": 4,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 3.774758283725532e-15,
+    "ideal_balanced_accuracy": 0.80078125,
+    "shot_balanced_accuracy": 0.53515625
+  },
+  {
+    "replicate": 4,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 3.774758283725532e-15,
+    "ideal_balanced_accuracy": 0.80078125,
+    "shot_balanced_accuracy": 0.55859375
+  },
+  {
+    "replicate": 4,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 3.774758283725532e-15,
+    "ideal_balanced_accuracy": 0.80078125,
+    "shot_balanced_accuracy": 0.62890625
+  },
+  {
+    "replicate": 4,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 3.774758283725532e-15,
+    "ideal_balanced_accuracy": 0.80078125,
+    "shot_balanced_accuracy": 0.6796875
+  },
+  {
+    "replicate": 5,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7515884652981427,
+    "shot_balanced_accuracy": 0.7606304985337243
+  },
+  {
+    "replicate": 5,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7515884652981427,
+    "shot_balanced_accuracy": 0.7757820136852396
+  },
+  {
+    "replicate": 5,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7515884652981427,
+    "shot_balanced_accuracy": 0.7561094819159335
+  },
+  {
+    "replicate": 5,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7515884652981427,
+    "shot_balanced_accuracy": 0.7513440860215054
+  },
+  {
+    "replicate": 5,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 9.992007221626409e-16,
+    "ideal_balanced_accuracy": 0.7515884652981427,
+    "shot_balanced_accuracy": 0.5933528836754643
+  },
+  {
+    "replicate": 5,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 9.992007221626409e-16,
+    "ideal_balanced_accuracy": 0.7515884652981427,
+    "shot_balanced_accuracy": 0.6549364613880744
+  },
+  {
+    "replicate": 5,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 9.992007221626409e-16,
+    "ideal_balanced_accuracy": 0.7515884652981427,
+    "shot_balanced_accuracy": 0.7324046920821115
+  },
+  {
+    "replicate": 5,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 9.992007221626409e-16,
+    "ideal_balanced_accuracy": 0.7515884652981427,
+    "shot_balanced_accuracy": 0.7366813294232648
+  },
+  {
+    "replicate": 5,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 2.4702462297909733e-15,
+    "ideal_balanced_accuracy": 0.7515884652981427,
+    "shot_balanced_accuracy": 0.5260263929618769
+  },
+  {
+    "replicate": 5,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 2.4702462297909733e-15,
+    "ideal_balanced_accuracy": 0.7515884652981427,
+    "shot_balanced_accuracy": 0.5447214076246334
+  },
+  {
+    "replicate": 5,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 2.4702462297909733e-15,
+    "ideal_balanced_accuracy": 0.7515884652981427,
+    "shot_balanced_accuracy": 0.5608504398826979
+  },
+  {
+    "replicate": 5,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 2.4702462297909733e-15,
+    "ideal_balanced_accuracy": 0.7515884652981427,
+    "shot_balanced_accuracy": 0.6201124144672532
+  },
+  {
+    "replicate": 6,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7735042735042735,
+    "shot_balanced_accuracy": 0.7064102564102563
+  },
+  {
+    "replicate": 6,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7735042735042735,
+    "shot_balanced_accuracy": 0.7338217338217339
+  },
+  {
+    "replicate": 6,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7735042735042735,
+    "shot_balanced_accuracy": 0.7690476190476191
+  },
+  {
+    "replicate": 6,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7735042735042735,
+    "shot_balanced_accuracy": 0.777106227106227
+  },
+  {
+    "replicate": 6,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.2212453270876722e-15,
+    "ideal_balanced_accuracy": 0.7735042735042735,
+    "shot_balanced_accuracy": 0.6047008547008548
+  },
+  {
+    "replicate": 6,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.2212453270876722e-15,
+    "ideal_balanced_accuracy": 0.7735042735042735,
+    "shot_balanced_accuracy": 0.652075702075702
+  },
+  {
+    "replicate": 6,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.2212453270876722e-15,
+    "ideal_balanced_accuracy": 0.7735042735042735,
+    "shot_balanced_accuracy": 0.7178266178266178
+  },
+  {
+    "replicate": 6,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.2212453270876722e-15,
+    "ideal_balanced_accuracy": 0.7735042735042735,
+    "shot_balanced_accuracy": 0.7384004884004884
+  },
+  {
+    "replicate": 6,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 2.831068712794149e-15,
+    "ideal_balanced_accuracy": 0.7735042735042735,
+    "shot_balanced_accuracy": 0.5504884004884005
+  },
+  {
+    "replicate": 6,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 2.831068712794149e-15,
+    "ideal_balanced_accuracy": 0.7735042735042735,
+    "shot_balanced_accuracy": 0.5042124542124542
+  },
+  {
+    "replicate": 6,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 2.831068712794149e-15,
+    "ideal_balanced_accuracy": 0.7735042735042735,
+    "shot_balanced_accuracy": 0.5904151404151404
+  },
+  {
+    "replicate": 6,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 2.831068712794149e-15,
+    "ideal_balanced_accuracy": 0.7735042735042735,
+    "shot_balanced_accuracy": 0.6683150183150184
+  },
+  {
+    "replicate": 7,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7854137013429049,
+    "shot_balanced_accuracy": 0.7008478247416301
+  },
+  {
+    "replicate": 7,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7854137013429049,
+    "shot_balanced_accuracy": 0.7774924190853394
+  },
+  {
+    "replicate": 7,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7854137013429049,
+    "shot_balanced_accuracy": 0.8117457763475463
+  },
+  {
+    "replicate": 7,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7854137013429049,
+    "shot_balanced_accuracy": 0.7819171978464015
+  },
+  {
+    "replicate": 7,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.6653345369377348e-15,
+    "ideal_balanced_accuracy": 0.7854137013429049,
+    "shot_balanced_accuracy": 0.5892381954328857
+  },
+  {
+    "replicate": 7,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.6653345369377348e-15,
+    "ideal_balanced_accuracy": 0.7854137013429049,
+    "shot_balanced_accuracy": 0.6728757967696021
+  },
+  {
+    "replicate": 7,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.6653345369377348e-15,
+    "ideal_balanced_accuracy": 0.7854137013429049,
+    "shot_balanced_accuracy": 0.7616498545702085
+  },
+  {
+    "replicate": 7,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.6653345369377348e-15,
+    "ideal_balanced_accuracy": 0.7854137013429049,
+    "shot_balanced_accuracy": 0.7434556593848629
+  },
+  {
+    "replicate": 7,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 4.884981308350689e-15,
+    "ideal_balanced_accuracy": 0.7854137013429049,
+    "shot_balanced_accuracy": 0.4410235781917198
+  },
+  {
+    "replicate": 7,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 4.884981308350689e-15,
+    "ideal_balanced_accuracy": 0.7854137013429049,
+    "shot_balanced_accuracy": 0.4943994059038307
+  },
+  {
+    "replicate": 7,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 4.884981308350689e-15,
+    "ideal_balanced_accuracy": 0.7854137013429049,
+    "shot_balanced_accuracy": 0.5536233677826599
+  },
+  {
+    "replicate": 7,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 4.884981308350689e-15,
+    "ideal_balanced_accuracy": 0.7854137013429049,
+    "shot_balanced_accuracy": 0.628844606720713
+  },
+  {
+    "replicate": 8,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7969698828436484,
+    "shot_balanced_accuracy": 0.7484205360976508
+  },
+  {
+    "replicate": 8,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7969698828436484,
+    "shot_balanced_accuracy": 0.746764399190333
+  },
+  {
+    "replicate": 8,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7969698828436484,
+    "shot_balanced_accuracy": 0.8048211985524136
+  },
+  {
+    "replicate": 8,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7969698828436484,
+    "shot_balanced_accuracy": 0.792216156535607
+  },
+  {
+    "replicate": 8,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.7969698828436484,
+    "shot_balanced_accuracy": 0.6074342145617371
+  },
+  {
+    "replicate": 8,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.7969698828436484,
+    "shot_balanced_accuracy": 0.6954548242654726
+  },
+  {
+    "replicate": 8,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.7969698828436484,
+    "shot_balanced_accuracy": 0.7442188554253819
+  },
+  {
+    "replicate": 8,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.7969698828436484,
+    "shot_balanced_accuracy": 0.7509660798626019
+  },
+  {
+    "replicate": 8,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7969698828436484,
+    "shot_balanced_accuracy": 0.5263755137091333
+  },
+  {
+    "replicate": 8,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7969698828436484,
+    "shot_balanced_accuracy": 0.6194872109427713
+  },
+  {
+    "replicate": 8,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7969698828436484,
+    "shot_balanced_accuracy": 0.6105318039624609
+  },
+  {
+    "replicate": 8,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7969698828436484,
+    "shot_balanced_accuracy": 0.7100533644114579
+  },
+  {
+    "replicate": 9,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.842741935483871,
+    "shot_balanced_accuracy": 0.7521994134897361
+  },
+  {
+    "replicate": 9,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.842741935483871,
+    "shot_balanced_accuracy": 0.7910557184750733
+  },
+  {
+    "replicate": 9,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.842741935483871,
+    "shot_balanced_accuracy": 0.8424975562072337
+  },
+  {
+    "replicate": 9,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.842741935483871,
+    "shot_balanced_accuracy": 0.8389540566959921
+  },
+  {
+    "replicate": 9,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.842741935483871,
+    "shot_balanced_accuracy": 0.5750244379276638
+  },
+  {
+    "replicate": 9,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.842741935483871,
+    "shot_balanced_accuracy": 0.6548142717497556
+  },
+  {
+    "replicate": 9,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.842741935483871,
+    "shot_balanced_accuracy": 0.7567204301075269
+  },
+  {
+    "replicate": 9,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.842741935483871,
+    "shot_balanced_accuracy": 0.8038856304985338
+  },
+  {
+    "replicate": 9,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 1.4849232954361469e-15,
+    "ideal_balanced_accuracy": 0.842741935483871,
+    "shot_balanced_accuracy": 0.49474584555229717
+  },
+  {
+    "replicate": 9,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 1.4849232954361469e-15,
+    "ideal_balanced_accuracy": 0.842741935483871,
+    "shot_balanced_accuracy": 0.5405669599217986
+  },
+  {
+    "replicate": 9,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 1.4849232954361469e-15,
+    "ideal_balanced_accuracy": 0.842741935483871,
+    "shot_balanced_accuracy": 0.6346529814271751
+  },
+  {
+    "replicate": 9,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 1.4849232954361469e-15,
+    "ideal_balanced_accuracy": 0.842741935483871,
+    "shot_balanced_accuracy": 0.6967253176930597
+  },
+  {
+    "replicate": 10,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8625615763546799,
+    "shot_balanced_accuracy": 0.798768472906404
+  },
+  {
+    "replicate": 10,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8625615763546799,
+    "shot_balanced_accuracy": 0.8102216748768473
+  },
+  {
+    "replicate": 10,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8625615763546799,
+    "shot_balanced_accuracy": 0.8467980295566502
+  },
+  {
+    "replicate": 10,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8625615763546799,
+    "shot_balanced_accuracy": 0.8496305418719212
+  },
+  {
+    "replicate": 10,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.609823385706477e-15,
+    "ideal_balanced_accuracy": 0.8625615763546799,
+    "shot_balanced_accuracy": 0.5746305418719212
+  },
+  {
+    "replicate": 10,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.609823385706477e-15,
+    "ideal_balanced_accuracy": 0.8625615763546799,
+    "shot_balanced_accuracy": 0.6919950738916256
+  },
+  {
+    "replicate": 10,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.609823385706477e-15,
+    "ideal_balanced_accuracy": 0.8625615763546799,
+    "shot_balanced_accuracy": 0.7773399014778326
+  },
+  {
+    "replicate": 10,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.609823385706477e-15,
+    "ideal_balanced_accuracy": 0.8625615763546799,
+    "shot_balanced_accuracy": 0.8496305418719212
+  },
+  {
+    "replicate": 10,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 2.1094237467877974e-15,
+    "ideal_balanced_accuracy": 0.8625615763546799,
+    "shot_balanced_accuracy": 0.5408866995073891
+  },
+  {
+    "replicate": 10,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 2.1094237467877974e-15,
+    "ideal_balanced_accuracy": 0.8625615763546799,
+    "shot_balanced_accuracy": 0.5538177339901478
+  },
+  {
+    "replicate": 10,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 2.1094237467877974e-15,
+    "ideal_balanced_accuracy": 0.8625615763546799,
+    "shot_balanced_accuracy": 0.6032019704433498
+  },
+  {
+    "replicate": 10,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 2.1094237467877974e-15,
+    "ideal_balanced_accuracy": 0.8625615763546799,
+    "shot_balanced_accuracy": 0.6805418719211822
+  },
+  {
+    "replicate": 11,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7995073891625616,
+    "shot_balanced_accuracy": 0.7434729064039409
+  },
+  {
+    "replicate": 11,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7995073891625616,
+    "shot_balanced_accuracy": 0.7801724137931034
+  },
+  {
+    "replicate": 11,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7995073891625616,
+    "shot_balanced_accuracy": 0.8080049261083744
+  },
+  {
+    "replicate": 11,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7995073891625616,
+    "shot_balanced_accuracy": 0.8045566502463054
+  },
+  {
+    "replicate": 11,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 9.43689570931383e-16,
+    "ideal_balanced_accuracy": 0.7995073891625616,
+    "shot_balanced_accuracy": 0.6097290640394089
+  },
+  {
+    "replicate": 11,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 9.43689570931383e-16,
+    "ideal_balanced_accuracy": 0.7995073891625616,
+    "shot_balanced_accuracy": 0.6842364532019705
+  },
+  {
+    "replicate": 11,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 9.43689570931383e-16,
+    "ideal_balanced_accuracy": 0.7995073891625616,
+    "shot_balanced_accuracy": 0.7958128078817734
+  },
+  {
+    "replicate": 11,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 9.43689570931383e-16,
+    "ideal_balanced_accuracy": 0.7995073891625616,
+    "shot_balanced_accuracy": 0.7663793103448275
+  },
+  {
+    "replicate": 11,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 2.6645352591003757e-15,
+    "ideal_balanced_accuracy": 0.7995073891625616,
+    "shot_balanced_accuracy": 0.5646551724137931
+  },
+  {
+    "replicate": 11,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 2.6645352591003757e-15,
+    "ideal_balanced_accuracy": 0.7995073891625616,
+    "shot_balanced_accuracy": 0.5736453201970444
+  },
+  {
+    "replicate": 11,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 2.6645352591003757e-15,
+    "ideal_balanced_accuracy": 0.7995073891625616,
+    "shot_balanced_accuracy": 0.5982758620689655
+  },
+  {
+    "replicate": 11,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 2.6645352591003757e-15,
+    "ideal_balanced_accuracy": 0.7995073891625616,
+    "shot_balanced_accuracy": 0.6410098522167488
+  },
+  {
+    "replicate": 12,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8082561491749984,
+    "shot_balanced_accuracy": 0.7863583389560204
+  },
+  {
+    "replicate": 12,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8082561491749984,
+    "shot_balanced_accuracy": 0.8256149174998466
+  },
+  {
+    "replicate": 12,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8082561491749984,
+    "shot_balanced_accuracy": 0.8071520579034533
+  },
+  {
+    "replicate": 12,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8082561491749984,
+    "shot_balanced_accuracy": 0.8166595105195362
+  },
+  {
+    "replicate": 12,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.6653345369377348e-15,
+    "ideal_balanced_accuracy": 0.8082561491749984,
+    "shot_balanced_accuracy": 0.5807826780347176
+  },
+  {
+    "replicate": 12,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.6653345369377348e-15,
+    "ideal_balanced_accuracy": 0.8082561491749984,
+    "shot_balanced_accuracy": 0.6877261853646568
+  },
+  {
+    "replicate": 12,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.6653345369377348e-15,
+    "ideal_balanced_accuracy": 0.8082561491749984,
+    "shot_balanced_accuracy": 0.7532969392136417
+  },
+  {
+    "replicate": 12,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.6653345369377348e-15,
+    "ideal_balanced_accuracy": 0.8082561491749984,
+    "shot_balanced_accuracy": 0.7751947494326197
+  },
+  {
+    "replicate": 12,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 4.232725281383409e-15,
+    "ideal_balanced_accuracy": 0.8082561491749984,
+    "shot_balanced_accuracy": 0.45736980923756365
+  },
+  {
+    "replicate": 12,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 4.232725281383409e-15,
+    "ideal_balanced_accuracy": 0.8082561491749984,
+    "shot_balanced_accuracy": 0.5431822363982088
+  },
+  {
+    "replicate": 12,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 4.232725281383409e-15,
+    "ideal_balanced_accuracy": 0.8082561491749984,
+    "shot_balanced_accuracy": 0.6231368459792677
+  },
+  {
+    "replicate": 12,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 4.232725281383409e-15,
+    "ideal_balanced_accuracy": 0.8082561491749984,
+    "shot_balanced_accuracy": 0.6957921854873337
+  },
+  {
+    "replicate": 13,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7937801379478728,
+    "shot_balanced_accuracy": 0.7198315326863212
+  },
+  {
+    "replicate": 13,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7937801379478728,
+    "shot_balanced_accuracy": 0.7702191295855461
+  },
+  {
+    "replicate": 13,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7937801379478728,
+    "shot_balanced_accuracy": 0.801715192577672
+  },
+  {
+    "replicate": 13,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7937801379478728,
+    "shot_balanced_accuracy": 0.7898431300738571
+  },
+  {
+    "replicate": 13,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7937801379478728,
+    "shot_balanced_accuracy": 0.6293413904657267
+  },
+  {
+    "replicate": 13,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7937801379478728,
+    "shot_balanced_accuracy": 0.7039003845449552
+  },
+  {
+    "replicate": 13,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7937801379478728,
+    "shot_balanced_accuracy": 0.74690227675029
+  },
+  {
+    "replicate": 13,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7937801379478728,
+    "shot_balanced_accuracy": 0.7664041994750657
+  },
+  {
+    "replicate": 13,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 2.7755575615628914e-15,
+    "ideal_balanced_accuracy": 0.7937801379478728,
+    "shot_balanced_accuracy": 0.5012512970762376
+  },
+  {
+    "replicate": 13,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 2.7755575615628914e-15,
+    "ideal_balanced_accuracy": 0.7937801379478728,
+    "shot_balanced_accuracy": 0.5545992797411952
+  },
+  {
+    "replicate": 13,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 2.7755575615628914e-15,
+    "ideal_balanced_accuracy": 0.7937801379478728,
+    "shot_balanced_accuracy": 0.5626564121345297
+  },
+  {
+    "replicate": 13,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 2.7755575615628914e-15,
+    "ideal_balanced_accuracy": 0.7937801379478728,
+    "shot_balanced_accuracy": 0.7113471281206127
+  },
+  {
+    "replicate": 14,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8107142857142857,
+    "shot_balanced_accuracy": 0.7476600985221675
+  },
+  {
+    "replicate": 14,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8107142857142857,
+    "shot_balanced_accuracy": 0.7589901477832512
+  },
+  {
+    "replicate": 14,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8107142857142857,
+    "shot_balanced_accuracy": 0.802832512315271
+  },
+  {
+    "replicate": 14,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8107142857142857,
+    "shot_balanced_accuracy": 0.8178571428571428
+  },
+  {
+    "replicate": 14,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.8107142857142857,
+    "shot_balanced_accuracy": 0.5746305418719212
+  },
+  {
+    "replicate": 14,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.8107142857142857,
+    "shot_balanced_accuracy": 0.6701970443349754
+  },
+  {
+    "replicate": 14,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.8107142857142857,
+    "shot_balanced_accuracy": 0.7625615763546798
+  },
+  {
+    "replicate": 14,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.8107142857142857,
+    "shot_balanced_accuracy": 0.8056650246305419
+  },
+  {
+    "replicate": 14,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 1.5543122344752192e-15,
+    "ideal_balanced_accuracy": 0.8107142857142857,
+    "shot_balanced_accuracy": 0.49507389162561577
+  },
+  {
+    "replicate": 14,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 1.5543122344752192e-15,
+    "ideal_balanced_accuracy": 0.8107142857142857,
+    "shot_balanced_accuracy": 0.5415024630541871
+  },
+  {
+    "replicate": 14,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 1.5543122344752192e-15,
+    "ideal_balanced_accuracy": 0.8107142857142857,
+    "shot_balanced_accuracy": 0.6125615763546799
+  },
+  {
+    "replicate": 14,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 1.5543122344752192e-15,
+    "ideal_balanced_accuracy": 0.8107142857142857,
+    "shot_balanced_accuracy": 0.6774630541871921
+  },
+  {
+    "replicate": 15,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8471407624633431,
+    "shot_balanced_accuracy": 0.7737047898338221
+  },
+  {
+    "replicate": 15,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8471407624633431,
+    "shot_balanced_accuracy": 0.8400537634408602
+  },
+  {
+    "replicate": 15,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8471407624633431,
+    "shot_balanced_accuracy": 0.8317448680351907
+  },
+  {
+    "replicate": 15,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8471407624633431,
+    "shot_balanced_accuracy": 0.8435972629521017
+  },
+  {
+    "replicate": 15,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.1102230246251565e-15,
+    "ideal_balanced_accuracy": 0.8471407624633431,
+    "shot_balanced_accuracy": 0.581989247311828
+  },
+  {
+    "replicate": 15,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.1102230246251565e-15,
+    "ideal_balanced_accuracy": 0.8471407624633431,
+    "shot_balanced_accuracy": 0.6816959921798631
+  },
+  {
+    "replicate": 15,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.1102230246251565e-15,
+    "ideal_balanced_accuracy": 0.8471407624633431,
+    "shot_balanced_accuracy": 0.7424242424242424
+  },
+  {
+    "replicate": 15,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.1102230246251565e-15,
+    "ideal_balanced_accuracy": 0.8471407624633431,
+    "shot_balanced_accuracy": 0.8206256109481915
+  },
+  {
+    "replicate": 15,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 2.886579864025407e-15,
+    "ideal_balanced_accuracy": 0.8471407624633431,
+    "shot_balanced_accuracy": 0.4805718475073314
+  },
+  {
+    "replicate": 15,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 2.886579864025407e-15,
+    "ideal_balanced_accuracy": 0.8471407624633431,
+    "shot_balanced_accuracy": 0.5698924731182795
+  },
+  {
+    "replicate": 15,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 2.886579864025407e-15,
+    "ideal_balanced_accuracy": 0.8471407624633431,
+    "shot_balanced_accuracy": 0.6125366568914956
+  },
+  {
+    "replicate": 15,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 2.886579864025407e-15,
+    "ideal_balanced_accuracy": 0.8471407624633431,
+    "shot_balanced_accuracy": 0.7030791788856305
+  },
+  {
+    "replicate": 16,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8214285714285714,
+    "shot_balanced_accuracy": 0.7564484126984128
+  },
+  {
+    "replicate": 16,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8214285714285714,
+    "shot_balanced_accuracy": 0.7867063492063493
+  },
+  {
+    "replicate": 16,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8214285714285714,
+    "shot_balanced_accuracy": 0.8120039682539683
+  },
+  {
+    "replicate": 16,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8214285714285714,
+    "shot_balanced_accuracy": 0.8179563492063493
+  },
+  {
+    "replicate": 16,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.2212453270876722e-15,
+    "ideal_balanced_accuracy": 0.8214285714285714,
+    "shot_balanced_accuracy": 0.6299603174603174
+  },
+  {
+    "replicate": 16,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.2212453270876722e-15,
+    "ideal_balanced_accuracy": 0.8214285714285714,
+    "shot_balanced_accuracy": 0.6884920634920635
+  },
+  {
+    "replicate": 16,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.2212453270876722e-15,
+    "ideal_balanced_accuracy": 0.8214285714285714,
+    "shot_balanced_accuracy": 0.7827380952380952
+  },
+  {
+    "replicate": 16,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.2212453270876722e-15,
+    "ideal_balanced_accuracy": 0.8214285714285714,
+    "shot_balanced_accuracy": 0.7847222222222222
+  },
+  {
+    "replicate": 16,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 3.774758283725532e-15,
+    "ideal_balanced_accuracy": 0.8214285714285714,
+    "shot_balanced_accuracy": 0.48660714285714285
+  },
+  {
+    "replicate": 16,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 3.774758283725532e-15,
+    "ideal_balanced_accuracy": 0.8214285714285714,
+    "shot_balanced_accuracy": 0.5525793650793651
+  },
+  {
+    "replicate": 16,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 3.774758283725532e-15,
+    "ideal_balanced_accuracy": 0.8214285714285714,
+    "shot_balanced_accuracy": 0.6309523809523809
+  },
+  {
+    "replicate": 16,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 3.774758283725532e-15,
+    "ideal_balanced_accuracy": 0.8214285714285714,
+    "shot_balanced_accuracy": 0.6746031746031746
+  },
+  {
+    "replicate": 17,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8516009852216748,
+    "shot_balanced_accuracy": 0.7399014778325124
+  },
+  {
+    "replicate": 17,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8516009852216748,
+    "shot_balanced_accuracy": 0.8043103448275861
+  },
+  {
+    "replicate": 17,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8516009852216748,
+    "shot_balanced_accuracy": 0.797167487684729
+  },
+  {
+    "replicate": 17,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8516009852216748,
+    "shot_balanced_accuracy": 0.836576354679803
+  },
+  {
+    "replicate": 17,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.2212453270876722e-15,
+    "ideal_balanced_accuracy": 0.8516009852216748,
+    "shot_balanced_accuracy": 0.6410098522167488
+  },
+  {
+    "replicate": 17,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.2212453270876722e-15,
+    "ideal_balanced_accuracy": 0.8516009852216748,
+    "shot_balanced_accuracy": 0.7011083743842365
+  },
+  {
+    "replicate": 17,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.2212453270876722e-15,
+    "ideal_balanced_accuracy": 0.8516009852216748,
+    "shot_balanced_accuracy": 0.7449507389162562
+  },
+  {
+    "replicate": 17,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.2212453270876722e-15,
+    "ideal_balanced_accuracy": 0.8516009852216748,
+    "shot_balanced_accuracy": 0.8035714285714286
+  },
+  {
+    "replicate": 17,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 2.6645352591003757e-15,
+    "ideal_balanced_accuracy": 0.8516009852216748,
+    "shot_balanced_accuracy": 0.5291871921182266
+  },
+  {
+    "replicate": 17,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 2.6645352591003757e-15,
+    "ideal_balanced_accuracy": 0.8516009852216748,
+    "shot_balanced_accuracy": 0.5465517241379311
+  },
+  {
+    "replicate": 17,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 2.6645352591003757e-15,
+    "ideal_balanced_accuracy": 0.8516009852216748,
+    "shot_balanced_accuracy": 0.621551724137931
+  },
+  {
+    "replicate": 17,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 2.6645352591003757e-15,
+    "ideal_balanced_accuracy": 0.8516009852216748,
+    "shot_balanced_accuracy": 0.7084975369458129
+  },
+  {
+    "replicate": 18,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7513927150290787,
+    "shot_balanced_accuracy": 0.6710437710437711
+  },
+  {
+    "replicate": 18,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7513927150290787,
+    "shot_balanced_accuracy": 0.735292317110499
+  },
+  {
+    "replicate": 18,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7513927150290787,
+    "shot_balanced_accuracy": 0.7670645852464034
+  },
+  {
+    "replicate": 18,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7513927150290787,
+    "shot_balanced_accuracy": 0.7642179369452097
+  },
+  {
+    "replicate": 18,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.7513927150290787,
+    "shot_balanced_accuracy": 0.5517906336088154
+  },
+  {
+    "replicate": 18,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.7513927150290787,
+    "shot_balanced_accuracy": 0.633853688399143
+  },
+  {
+    "replicate": 18,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.7513927150290787,
+    "shot_balanced_accuracy": 0.7030915212733395
+  },
+  {
+    "replicate": 18,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 8.881784197001252e-16,
+    "ideal_balanced_accuracy": 0.7513927150290787,
+    "shot_balanced_accuracy": 0.7159167431894704
+  },
+  {
+    "replicate": 18,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 3.3306690738754696e-15,
+    "ideal_balanced_accuracy": 0.7513927150290787,
+    "shot_balanced_accuracy": 0.46602387511478416
+  },
+  {
+    "replicate": 18,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 3.3306690738754696e-15,
+    "ideal_balanced_accuracy": 0.7513927150290787,
+    "shot_balanced_accuracy": 0.5250076522803796
+  },
+  {
+    "replicate": 18,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 3.3306690738754696e-15,
+    "ideal_balanced_accuracy": 0.7513927150290787,
+    "shot_balanced_accuracy": 0.57003367003367
+  },
+  {
+    "replicate": 18,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 3.3306690738754696e-15,
+    "ideal_balanced_accuracy": 0.7513927150290787,
+    "shot_balanced_accuracy": 0.5975206611570247
+  },
+  {
+    "replicate": 19,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8279370952821461,
+    "shot_balanced_accuracy": 0.7723404255319148
+  },
+  {
+    "replicate": 19,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8279370952821461,
+    "shot_balanced_accuracy": 0.7896083872957138
+  },
+  {
+    "replicate": 19,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8279370952821461,
+    "shot_balanced_accuracy": 0.8121492445266728
+  },
+  {
+    "replicate": 19,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8279370952821461,
+    "shot_balanced_accuracy": 0.8164970706136294
+  },
+  {
+    "replicate": 19,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.3322676295501878e-15,
+    "ideal_balanced_accuracy": 0.8279370952821461,
+    "shot_balanced_accuracy": 0.5768115942028985
+  },
+  {
+    "replicate": 19,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.3322676295501878e-15,
+    "ideal_balanced_accuracy": 0.8279370952821461,
+    "shot_balanced_accuracy": 0.6006167129201356
+  },
+  {
+    "replicate": 19,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.3322676295501878e-15,
+    "ideal_balanced_accuracy": 0.8279370952821461,
+    "shot_balanced_accuracy": 0.7438482886216466
+  },
+  {
+    "replicate": 19,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.3322676295501878e-15,
+    "ideal_balanced_accuracy": 0.8279370952821461,
+    "shot_balanced_accuracy": 0.7710761640456367
+  },
+  {
+    "replicate": 19,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 3.552713678800501e-15,
+    "ideal_balanced_accuracy": 0.8279370952821461,
+    "shot_balanced_accuracy": 0.4915818686401481
+  },
+  {
+    "replicate": 19,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 3.552713678800501e-15,
+    "ideal_balanced_accuracy": 0.8279370952821461,
+    "shot_balanced_accuracy": 0.5737280296022202
+  },
+  {
+    "replicate": 19,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 3.552713678800501e-15,
+    "ideal_balanced_accuracy": 0.8279370952821461,
+    "shot_balanced_accuracy": 0.586308973172988
+  },
+  {
+    "replicate": 19,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 3.552713678800501e-15,
+    "ideal_balanced_accuracy": 0.8279370952821461,
+    "shot_balanced_accuracy": 0.6668516805427074
+  },
+  {
+    "replicate": 20,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7562198178372761,
+    "shot_balanced_accuracy": 0.6670028730362492
+  },
+  {
+    "replicate": 20,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7562198178372761,
+    "shot_balanced_accuracy": 0.7612017849501803
+  },
+  {
+    "replicate": 20,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7562198178372761,
+    "shot_balanced_accuracy": 0.764349899138089
+  },
+  {
+    "replicate": 20,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7562198178372761,
+    "shot_balanced_accuracy": 0.7718686961305703
+  },
+  {
+    "replicate": 20,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.1657341758564144e-15,
+    "ideal_balanced_accuracy": 0.7562198178372761,
+    "shot_balanced_accuracy": 0.5887584815697782
+  },
+  {
+    "replicate": 20,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.1657341758564144e-15,
+    "ideal_balanced_accuracy": 0.7562198178372761,
+    "shot_balanced_accuracy": 0.6689284186074944
+  },
+  {
+    "replicate": 20,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.1657341758564144e-15,
+    "ideal_balanced_accuracy": 0.7562198178372761,
+    "shot_balanced_accuracy": 0.7070419952319824
+  },
+  {
+    "replicate": 20,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.1657341758564144e-15,
+    "ideal_balanced_accuracy": 0.7562198178372761,
+    "shot_balanced_accuracy": 0.7493123051531267
+  },
+  {
+    "replicate": 20,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 5.051514762044462e-15,
+    "ideal_balanced_accuracy": 0.7562198178372761,
+    "shot_balanced_accuracy": 0.4987163029525032
+  },
+  {
+    "replicate": 20,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 5.051514762044462e-15,
+    "ideal_balanced_accuracy": 0.7562198178372761,
+    "shot_balanced_accuracy": 0.504920838682071
+  },
+  {
+    "replicate": 20,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 5.051514762044462e-15,
+    "ideal_balanced_accuracy": 0.7562198178372761,
+    "shot_balanced_accuracy": 0.5339874075432484
+  },
+  {
+    "replicate": 20,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 5.051514762044462e-15,
+    "ideal_balanced_accuracy": 0.7562198178372761,
+    "shot_balanced_accuracy": 0.6736047435662327
+  },
+  {
+    "replicate": 21,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7454122828480548,
+    "shot_balanced_accuracy": 0.7584413995595791
+  },
+  {
+    "replicate": 21,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7454122828480548,
+    "shot_balanced_accuracy": 0.7629067775874725
+  },
+  {
+    "replicate": 21,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7454122828480548,
+    "shot_balanced_accuracy": 0.733851235625153
+  },
+  {
+    "replicate": 21,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7454122828480548,
+    "shot_balanced_accuracy": 0.7454122828480548
+  },
+  {
+    "replicate": 21,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.1102230246251565e-15,
+    "ideal_balanced_accuracy": 0.7454122828480548,
+    "shot_balanced_accuracy": 0.5984829948617568
+  },
+  {
+    "replicate": 21,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.1102230246251565e-15,
+    "ideal_balanced_accuracy": 0.7454122828480548,
+    "shot_balanced_accuracy": 0.701370198189381
+  },
+  {
+    "replicate": 21,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.1102230246251565e-15,
+    "ideal_balanced_accuracy": 0.7454122828480548,
+    "shot_balanced_accuracy": 0.7140934670907757
+  },
+  {
+    "replicate": 21,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.1102230246251565e-15,
+    "ideal_balanced_accuracy": 0.7454122828480548,
+    "shot_balanced_accuracy": 0.7454122828480548
+  },
+  {
+    "replicate": 21,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 1.942890293094024e-15,
+    "ideal_balanced_accuracy": 0.7454122828480548,
+    "shot_balanced_accuracy": 0.5433080499143627
+  },
+  {
+    "replicate": 21,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 1.942890293094024e-15,
+    "ideal_balanced_accuracy": 0.7454122828480548,
+    "shot_balanced_accuracy": 0.5392096892586249
+  },
+  {
+    "replicate": 21,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 1.942890293094024e-15,
+    "ideal_balanced_accuracy": 0.7454122828480548,
+    "shot_balanced_accuracy": 0.6025813555174946
+  },
+  {
+    "replicate": 21,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 1.942890293094024e-15,
+    "ideal_balanced_accuracy": 0.7454122828480548,
+    "shot_balanced_accuracy": 0.7326890139466602
+  },
+  {
+    "replicate": 22,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8025551684088269,
+    "shot_balanced_accuracy": 0.7628216883672596
+  },
+  {
+    "replicate": 22,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8025551684088269,
+    "shot_balanced_accuracy": 0.8116021761721377
+  },
+  {
+    "replicate": 22,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8025551684088269,
+    "shot_balanced_accuracy": 0.8031664527171587
+  },
+  {
+    "replicate": 22,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8025551684088269,
+    "shot_balanced_accuracy": 0.8034720948713246
+  },
+  {
+    "replicate": 22,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.8025551684088269,
+    "shot_balanced_accuracy": 0.5711840577052387
+  },
+  {
+    "replicate": 22,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.8025551684088269,
+    "shot_balanced_accuracy": 0.6979949874686717
+  },
+  {
+    "replicate": 22,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.8025551684088269,
+    "shot_balanced_accuracy": 0.7527660614952014
+  },
+  {
+    "replicate": 22,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.8025551684088269,
+    "shot_balanced_accuracy": 0.7687205819426615
+  },
+  {
+    "replicate": 22,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 2.6645352591003757e-15,
+    "ideal_balanced_accuracy": 0.8025551684088269,
+    "shot_balanced_accuracy": 0.5332844305886668
+  },
+  {
+    "replicate": 22,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 2.6645352591003757e-15,
+    "ideal_balanced_accuracy": 0.8025551684088269,
+    "shot_balanced_accuracy": 0.5148847729078795
+  },
+  {
+    "replicate": 22,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 2.6645352591003757e-15,
+    "ideal_balanced_accuracy": 0.8025551684088269,
+    "shot_balanced_accuracy": 0.58399046396479
+  },
+  {
+    "replicate": 22,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 2.6645352591003757e-15,
+    "ideal_balanced_accuracy": 0.8025551684088269,
+    "shot_balanced_accuracy": 0.6582615074271043
+  },
+  {
+    "replicate": 23,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7795698924731183,
+    "shot_balanced_accuracy": 0.7598973607038124
+  },
+  {
+    "replicate": 23,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7795698924731183,
+    "shot_balanced_accuracy": 0.7561094819159335
+  },
+  {
+    "replicate": 23,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7795698924731183,
+    "shot_balanced_accuracy": 0.7793255131964809
+  },
+  {
+    "replicate": 23,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7795698924731183,
+    "shot_balanced_accuracy": 0.7795698924731183
+  },
+  {
+    "replicate": 23,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7795698924731183,
+    "shot_balanced_accuracy": 0.5525415444770283
+  },
+  {
+    "replicate": 23,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7795698924731183,
+    "shot_balanced_accuracy": 0.6542033235581624
+  },
+  {
+    "replicate": 23,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7795698924731183,
+    "shot_balanced_accuracy": 0.7155425219941349
+  },
+  {
+    "replicate": 23,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7795698924731183,
+    "shot_balanced_accuracy": 0.7677174975562073
+  },
+  {
+    "replicate": 23,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 5.384581669432009e-15,
+    "ideal_balanced_accuracy": 0.7795698924731183,
+    "shot_balanced_accuracy": 0.511119257086999
+  },
+  {
+    "replicate": 23,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 5.384581669432009e-15,
+    "ideal_balanced_accuracy": 0.7795698924731183,
+    "shot_balanced_accuracy": 0.5888318670576735
+  },
+  {
+    "replicate": 23,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 5.384581669432009e-15,
+    "ideal_balanced_accuracy": 0.7795698924731183,
+    "shot_balanced_accuracy": 0.6390518084066472
+  },
+  {
+    "replicate": 23,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 5.384581669432009e-15,
+    "ideal_balanced_accuracy": 0.7795698924731183,
+    "shot_balanced_accuracy": 0.635752688172043
+  },
+  {
+    "replicate": 24,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8124542124542125,
+    "shot_balanced_accuracy": 0.7305860805860807
+  },
+  {
+    "replicate": 24,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8124542124542125,
+    "shot_balanced_accuracy": 0.778083028083028
+  },
+  {
+    "replicate": 24,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8124542124542125,
+    "shot_balanced_accuracy": 0.8126984126984127
+  },
+  {
+    "replicate": 24,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8124542124542125,
+    "shot_balanced_accuracy": 0.8005494505494506
+  },
+  {
+    "replicate": 24,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.8124542124542125,
+    "shot_balanced_accuracy": 0.6365689865689865
+  },
+  {
+    "replicate": 24,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.8124542124542125,
+    "shot_balanced_accuracy": 0.6989621489621489
+  },
+  {
+    "replicate": 24,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.8124542124542125,
+    "shot_balanced_accuracy": 0.7577533577533577
+  },
+  {
+    "replicate": 24,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.4432899320127035e-15,
+    "ideal_balanced_accuracy": 0.8124542124542125,
+    "shot_balanced_accuracy": 0.8045177045177045
+  },
+  {
+    "replicate": 24,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 2.1094237467877974e-15,
+    "ideal_balanced_accuracy": 0.8124542124542125,
+    "shot_balanced_accuracy": 0.5462759462759463
+  },
+  {
+    "replicate": 24,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 2.1094237467877974e-15,
+    "ideal_balanced_accuracy": 0.8124542124542125,
+    "shot_balanced_accuracy": 0.5204517704517705
+  },
+  {
+    "replicate": 24,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 2.1094237467877974e-15,
+    "ideal_balanced_accuracy": 0.8124542124542125,
+    "shot_balanced_accuracy": 0.6064102564102564
+  },
+  {
+    "replicate": 24,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 2.1094237467877974e-15,
+    "ideal_balanced_accuracy": 0.8124542124542125,
+    "shot_balanced_accuracy": 0.6244200244200244
+  },
+  {
+    "replicate": 25,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7474809160305343,
+    "shot_balanced_accuracy": 0.7329465648854963
+  },
+  {
+    "replicate": 25,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7474809160305343,
+    "shot_balanced_accuracy": 0.7436641221374045
+  },
+  {
+    "replicate": 25,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7474809160305343,
+    "shot_balanced_accuracy": 0.7316641221374045
+  },
+  {
+    "replicate": 25,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7474809160305343,
+    "shot_balanced_accuracy": 0.7476641221374045
+  },
+  {
+    "replicate": 25,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.7208456881689926e-15,
+    "ideal_balanced_accuracy": 0.7474809160305343,
+    "shot_balanced_accuracy": 0.6115114503816794
+  },
+  {
+    "replicate": 25,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.7208456881689926e-15,
+    "ideal_balanced_accuracy": 0.7474809160305343,
+    "shot_balanced_accuracy": 0.6905954198473283
+  },
+  {
+    "replicate": 25,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.7208456881689926e-15,
+    "ideal_balanced_accuracy": 0.7474809160305343,
+    "shot_balanced_accuracy": 0.7122137404580153
+  },
+  {
+    "replicate": 25,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.7208456881689926e-15,
+    "ideal_balanced_accuracy": 0.7474809160305343,
+    "shot_balanced_accuracy": 0.7598473282442748
+  },
+  {
+    "replicate": 25,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 4.08006961549745e-15,
+    "ideal_balanced_accuracy": 0.7474809160305343,
+    "shot_balanced_accuracy": 0.4882748091603053
+  },
+  {
+    "replicate": 25,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 4.08006961549745e-15,
+    "ideal_balanced_accuracy": 0.7474809160305343,
+    "shot_balanced_accuracy": 0.5700763358778627
+  },
+  {
+    "replicate": 25,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 4.08006961549745e-15,
+    "ideal_balanced_accuracy": 0.7474809160305343,
+    "shot_balanced_accuracy": 0.6427786259541984
+  },
+  {
+    "replicate": 25,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 4.08006961549745e-15,
+    "ideal_balanced_accuracy": 0.7474809160305343,
+    "shot_balanced_accuracy": 0.7096793893129771
+  },
+  {
+    "replicate": 26,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7845723421262989,
+    "shot_balanced_accuracy": 0.7243128574063826
+  },
+  {
+    "replicate": 26,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7845723421262989,
+    "shot_balanced_accuracy": 0.7659103486441616
+  },
+  {
+    "replicate": 26,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7845723421262989,
+    "shot_balanced_accuracy": 0.8223574986164914
+  },
+  {
+    "replicate": 26,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7845723421262989,
+    "shot_balanced_accuracy": 0.7717518293057861
+  },
+  {
+    "replicate": 26,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7845723421262989,
+    "shot_balanced_accuracy": 0.6125561089589866
+  },
+  {
+    "replicate": 26,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7845723421262989,
+    "shot_balanced_accuracy": 0.7070036278669372
+  },
+  {
+    "replicate": 26,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7845723421262989,
+    "shot_balanced_accuracy": 0.7517370718809568
+  },
+  {
+    "replicate": 26,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.9984014443252818e-15,
+    "ideal_balanced_accuracy": 0.7845723421262989,
+    "shot_balanced_accuracy": 0.7623132263420034
+  },
+  {
+    "replicate": 26,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 3.1086244689504383e-15,
+    "ideal_balanced_accuracy": 0.7845723421262989,
+    "shot_balanced_accuracy": 0.5639795855623194
+  },
+  {
+    "replicate": 26,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 3.1086244689504383e-15,
+    "ideal_balanced_accuracy": 0.7845723421262989,
+    "shot_balanced_accuracy": 0.5756625468855685
+  },
+  {
+    "replicate": 26,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 3.1086244689504383e-15,
+    "ideal_balanced_accuracy": 0.7845723421262989,
+    "shot_balanced_accuracy": 0.6190739715919572
+  },
+  {
+    "replicate": 26,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 3.1086244689504383e-15,
+    "ideal_balanced_accuracy": 0.7845723421262989,
+    "shot_balanced_accuracy": 0.6991330012912746
+  },
+  {
+    "replicate": 27,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7802127269392994,
+    "shot_balanced_accuracy": 0.7091814903111437
+  },
+  {
+    "replicate": 27,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7802127269392994,
+    "shot_balanced_accuracy": 0.7799070847851336
+  },
+  {
+    "replicate": 27,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7802127269392994,
+    "shot_balanced_accuracy": 0.7714713613301547
+  },
+  {
+    "replicate": 27,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7802127269392994,
+    "shot_balanced_accuracy": 0.7917965645821872
+  },
+  {
+    "replicate": 27,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.3600232051658168e-15,
+    "ideal_balanced_accuracy": 0.7802127269392994,
+    "shot_balanced_accuracy": 0.607861116205147
+  },
+  {
+    "replicate": 27,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.3600232051658168e-15,
+    "ideal_balanced_accuracy": 0.7802127269392994,
+    "shot_balanced_accuracy": 0.6644660431566722
+  },
+  {
+    "replicate": 27,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.3600232051658168e-15,
+    "ideal_balanced_accuracy": 0.7802127269392994,
+    "shot_balanced_accuracy": 0.743321718931475
+  },
+  {
+    "replicate": 27,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.3600232051658168e-15,
+    "ideal_balanced_accuracy": 0.7802127269392994,
+    "shot_balanced_accuracy": 0.7667950363714163
+  },
+  {
+    "replicate": 27,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 1.5959455978986625e-15,
+    "ideal_balanced_accuracy": 0.7802127269392994,
+    "shot_balanced_accuracy": 0.5132648694908002
+  },
+  {
+    "replicate": 27,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 1.5959455978986625e-15,
+    "ideal_balanced_accuracy": 0.7802127269392994,
+    "shot_balanced_accuracy": 0.5579803166452717
+  },
+  {
+    "replicate": 27,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 1.5959455978986625e-15,
+    "ideal_balanced_accuracy": 0.7802127269392994,
+    "shot_balanced_accuracy": 0.5953603520997617
+  },
+  {
+    "replicate": 27,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 1.5959455978986625e-15,
+    "ideal_balanced_accuracy": 0.7802127269392994,
+    "shot_balanced_accuracy": 0.6772724494162234
+  },
+  {
+    "replicate": 28,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7508553274682307,
+    "shot_balanced_accuracy": 0.7288611925708699
+  },
+  {
+    "replicate": 28,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7508553274682307,
+    "shot_balanced_accuracy": 0.739247311827957
+  },
+  {
+    "replicate": 28,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7508553274682307,
+    "shot_balanced_accuracy": 0.7344819159335289
+  },
+  {
+    "replicate": 28,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.7508553274682307,
+    "shot_balanced_accuracy": 0.7468230694037146
+  },
+  {
+    "replicate": 28,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 7.771561172376096e-16,
+    "ideal_balanced_accuracy": 0.7508553274682307,
+    "shot_balanced_accuracy": 0.5736803519061584
+  },
+  {
+    "replicate": 28,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 7.771561172376096e-16,
+    "ideal_balanced_accuracy": 0.7508553274682307,
+    "shot_balanced_accuracy": 0.6433284457478006
+  },
+  {
+    "replicate": 28,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 7.771561172376096e-16,
+    "ideal_balanced_accuracy": 0.7508553274682307,
+    "shot_balanced_accuracy": 0.712487781036168
+  },
+  {
+    "replicate": 28,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 7.771561172376096e-16,
+    "ideal_balanced_accuracy": 0.7508553274682307,
+    "shot_balanced_accuracy": 0.7240957966764419
+  },
+  {
+    "replicate": 28,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 1.6653345369377348e-15,
+    "ideal_balanced_accuracy": 0.7508553274682307,
+    "shot_balanced_accuracy": 0.509286412512219
+  },
+  {
+    "replicate": 28,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 1.6653345369377348e-15,
+    "ideal_balanced_accuracy": 0.7508553274682307,
+    "shot_balanced_accuracy": 0.5179618768328446
+  },
+  {
+    "replicate": 28,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 1.6653345369377348e-15,
+    "ideal_balanced_accuracy": 0.7508553274682307,
+    "shot_balanced_accuracy": 0.5456989247311828
+  },
+  {
+    "replicate": 28,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 1.6653345369377348e-15,
+    "ideal_balanced_accuracy": 0.7508553274682307,
+    "shot_balanced_accuracy": 0.6267106549364614
+  },
+  {
+    "replicate": 29,
+    "p": 0,
+    "shots": 128,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8141495601173021,
+    "shot_balanced_accuracy": 0.739980449657869
+  },
+  {
+    "replicate": 29,
+    "p": 0,
+    "shots": 512,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8141495601173021,
+    "shot_balanced_accuracy": 0.798998044965787
+  },
+  {
+    "replicate": 29,
+    "p": 0,
+    "shots": 2048,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8141495601173021,
+    "shot_balanced_accuracy": 0.798264907135875
+  },
+  {
+    "replicate": 29,
+    "p": 0,
+    "shots": 8192,
+    "exact_matched_max_error": 0.0,
+    "ideal_balanced_accuracy": 0.8141495601173021,
+    "shot_balanced_accuracy": 0.8222140762463344
+  },
+  {
+    "replicate": 29,
+    "p": 0.5,
+    "shots": 128,
+    "exact_matched_max_error": 1.1657341758564144e-15,
+    "ideal_balanced_accuracy": 0.8141495601173021,
+    "shot_balanced_accuracy": 0.6089931573802542
+  },
+  {
+    "replicate": 29,
+    "p": 0.5,
+    "shots": 512,
+    "exact_matched_max_error": 1.1657341758564144e-15,
+    "ideal_balanced_accuracy": 0.8141495601173021,
+    "shot_balanced_accuracy": 0.7160312805474096
+  },
+  {
+    "replicate": 29,
+    "p": 0.5,
+    "shots": 2048,
+    "exact_matched_max_error": 1.1657341758564144e-15,
+    "ideal_balanced_accuracy": 0.8141495601173021,
+    "shot_balanced_accuracy": 0.7743157380254154
+  },
+  {
+    "replicate": 29,
+    "p": 0.5,
+    "shots": 8192,
+    "exact_matched_max_error": 1.1657341758564144e-15,
+    "ideal_balanced_accuracy": 0.8141495601173021,
+    "shot_balanced_accuracy": 0.794477028347996
+  },
+  {
+    "replicate": 29,
+    "p": 0.75,
+    "shots": 128,
+    "exact_matched_max_error": 3.774758283725532e-15,
+    "ideal_balanced_accuracy": 0.8141495601173021,
+    "shot_balanced_accuracy": 0.5282258064516129
+  },
+  {
+    "replicate": 29,
+    "p": 0.75,
+    "shots": 512,
+    "exact_matched_max_error": 3.774758283725532e-15,
+    "ideal_balanced_accuracy": 0.8141495601173021,
+    "shot_balanced_accuracy": 0.5648826979472141
+  },
+  {
+    "replicate": 29,
+    "p": 0.75,
+    "shots": 2048,
+    "exact_matched_max_error": 3.774758283725532e-15,
+    "ideal_balanced_accuracy": 0.8141495601173021,
+    "shot_balanced_accuracy": 0.5862658846529815
+  },
+  {
+    "replicate": 29,
+    "p": 0.75,
+    "shots": 8192,
+    "exact_matched_max_error": 3.774758283725532e-15,
+    "ideal_balanced_accuracy": 0.8141495601173021,
+    "shot_balanced_accuracy": 0.6700879765395895
+  }
+]

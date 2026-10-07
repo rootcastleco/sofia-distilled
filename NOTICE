@@ -1,0 +1,13 @@
+Sofia Distilled v0.1
+Copyright 2026 Rootcastle Engineering & Innovation
+
+Sofia Edge contains newly trained NumPy model weights and original synthetic signal data.
+Sofia Chat contains modified pretrained weights derived from Qwen/Qwen2.5-0.5B-Instruct,
+copyright its respective authors, distributed under the Apache License 2.0.
+Pinned upstream revision: 7ae557604adf67be50417f59c2c2f167def9a775.
+
+The verifiable product-kernel method is informed by Batuhan Ayribas (2026),
+Quantum Artificial Intelligence with Verifiable Kernels:
+https://www.academia.edu/175377730/Quantum_Artificial_Intelligence_with_Verifiable_Kernels
+The implementation, signal-learning task, distillation extension, and new experimental
+results in this repository are separate from the manuscript's supplementary archive.

@@ -1,0 +1,50 @@
+{
+  "seed": 20261008,
+  "replicates": 30,
+  "tasks": [
+    "linear",
+    "parity",
+    "periodic"
+  ],
+  "label_flip_probability": 0.05,
+  "split": [
+    96,
+    64,
+    256
+  ],
+  "dimension": 4,
+  "scales": [
+    0.25,
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "rbf_gamma": [
+    0.125,
+    0.5,
+    2,
+    8,
+    32
+  ],
+  "penalties": [
+    1,
+    0.1,
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "noise_strengths": [
+    0,
+    0.5,
+    0.75
+  ],
+  "shots": [
+    128,
+    512,
+    2048,
+    8192
+  ],
+  "source": "https://www.academia.edu/175377730/Quantum_Artificial_Intelligence_with_Verifiable_Kernels",
+  "scope": "independent adapted implementation; not a reproduction of original seed-level archive"
+}

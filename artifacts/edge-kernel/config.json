@@ -1,0 +1,44 @@
+{
+  "model_type": "sofia-edge-mlp",
+  "version": "0.1.0",
+  "role": "product-kernel-distilled-student",
+  "feature_schema": "sofia.synthetic-vibration.v1",
+  "feature_names": [
+    "log_rms",
+    "log_peak",
+    "kurtosis",
+    "crest_factor",
+    "shaft_energy",
+    "second_harmonic_energy",
+    "third_harmonic_energy",
+    "fourth_harmonic_energy",
+    "high_frequency_energy",
+    "spectral_flatness",
+    "spectral_entropy",
+    "envelope_kurtosis",
+    "log_envelope_rms",
+    "zero_crossing_rate"
+  ],
+  "labels": [
+    "healthy",
+    "imbalance",
+    "misalignment",
+    "bearing_impulses",
+    "rubbing"
+  ],
+  "dimensions": [
+    14,
+    16,
+    5
+  ],
+  "input_unit": "g",
+  "weights_sha256": "4ca49061fee1dff9237793a9300c2509cf631b6aafcb242b48f4b17af043583a",
+  "parameter_count": 325,
+  "training_data": "analytical synthetic waveforms only",
+  "sample_rate_hz": 2048,
+  "window_size": 1024,
+  "training_shaft_hz": [
+    18,
+    42
+  ]
+}

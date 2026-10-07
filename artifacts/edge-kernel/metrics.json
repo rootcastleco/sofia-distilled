@@ -1,0 +1,171 @@
+{
+  "protocol_sha256": "cede6dadafda44f20aaa3faec1a85599860f8da40637bc2edee262a79769d68f",
+  "teacher_selected_scale": 0.5,
+  "teacher_selected_penalty": 0.0001,
+  "teacher_validation_balanced_accuracy": 1.0,
+  "teacher_test_balanced_accuracy": 0.9993333333333332,
+  "teacher_ood_balanced_accuracy": 1.0,
+  "rbf_selected": [
+    0.25,
+    0.01
+  ],
+  "rbf_validation_balanced_accuracy": 1.0,
+  "rbf_test_balanced_accuracy": 0.9993333333333332,
+  "student": {
+    "accuracy": 0.9993333333333333,
+    "macro_f1": 0.9993333314814763,
+    "cross_entropy": 0.29937443104218475,
+    "confusion_matrix": [
+      [
+        300,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        299,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        300,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        300,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        300
+      ]
+    ],
+    "per_class_f1": {
+      "healthy": 0.9983361064891847,
+      "imbalance": 0.998330550918197,
+      "misalignment": 1.0,
+      "bearing_impulses": 1.0,
+      "rubbing": 1.0
+    }
+  },
+  "supervised_control": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "cross_entropy": 0.0009983560894549599,
+    "confusion_matrix": [
+      [
+        300,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        300,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        300,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        300,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        300
+      ]
+    ],
+    "per_class_f1": {
+      "healthy": 1.0,
+      "imbalance": 1.0,
+      "misalignment": 1.0,
+      "bearing_impulses": 1.0,
+      "rubbing": 1.0
+    }
+  },
+  "ood_student": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "cross_entropy": 0.3101353251954706,
+    "confusion_matrix": [
+      [
+        300,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        300,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        300,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        300,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        300
+      ]
+    ],
+    "per_class_f1": {
+      "healthy": 1.0,
+      "imbalance": 1.0,
+      "misalignment": 1.0,
+      "bearing_impulses": 1.0,
+      "rubbing": 1.0
+    }
+  },
+  "student_teacher_agreement": 1.0,
+  "student_parameters": 325,
+  "teacher_anchor_count": 800,
+  "quantum_hardware": false,
+  "limitations": [
+    "Synthetic scenarios only; no field diagnostic validation",
+    "Kernel has an exact efficient classical equivalent",
+    "One model-training seed; no inferential benefit claim for distillation",
+    "Scores/softmax are not calibrated confidence"
+  ]
+}

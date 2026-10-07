@@ -1,0 +1,31 @@
+{
+  "method": "product-rotation centred kernel ridge teacher + neural KL distillation",
+  "source": "https://www.academia.edu/175377730/Quantum_Artificial_Intelligence_with_Verifiable_Kernels",
+  "scales": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "ridge_penalties": [
+    1.0,
+    0.1,
+    0.01,
+    0.001,
+    0.0001
+  ],
+  "epochs": 120,
+  "seed": 20261008,
+  "teacher_fit": 600,
+  "teacher_validation": 200,
+  "student_train": 6000,
+  "student_validation": 1000,
+  "test": 1500,
+  "ood_test": 1500,
+  "selection": "teacher: first best validation balanced accuracy; student: minimum validation CE",
+  "neural_temperature": 2.0,
+  "kernel_score_temperature": 0.5,
+  "alpha": 0.7,
+  "quantum_hardware": false
+}
