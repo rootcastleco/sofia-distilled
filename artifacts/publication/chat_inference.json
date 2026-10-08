@@ -1,0 +1,7 @@
+{
+  "repo": "rootcastleengineering/sofia-chat-distilled-v0.1",
+  "prompt": "Explain spectral leakage briefly.",
+  "response": "Spectral leakage occurs when a finite observation spreads a tone across frequency bins. A tone spreads across frequency bins because the spectral leakage is not uniformly across the observation. To reduce leakage, a tone window reduces the spectral leakage and broadens the observation.",
+  "result": "public merged weights loaded and generation completed",
+  "quality": "unverified experimental output"
+}

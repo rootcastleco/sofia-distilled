@@ -3,4 +3,5 @@
 *.npy binary
 *.safetensors binary
 *.jpg binary
-artifacts/** -text
+# Preserve the exact experiment bytes used by the published SHA-256 manifests.
+artifacts/** -text whitespace=cr-at-eol

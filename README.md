@@ -94,6 +94,9 @@ python scripts/publish.py chat
 # After a local `hf auth login`:
 python scripts/publish.py edge --upload
 python scripts/publish.py chat --upload
+# Audit public files against the staged SHA-256 manifest:
+python scripts/verify_publication.py edge
+python scripts/verify_publication.py chat --download-weights
 ```
 
 The staging script requires completed training outputs and selects named files. Model weights are `.npz` or `.safetensors`, with SHA-256 manifests. License: Apache-2.0; see [LICENSE](LICENSE) and [NOTICE](NOTICE) for Qwen attribution.

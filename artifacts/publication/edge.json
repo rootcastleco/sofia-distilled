@@ -1,0 +1,21 @@
+{
+  "repo": "rootcastleengineering/sofia-edge-distilled-v0.1",
+  "revision": "b5478328daf7271c4e505a697cf471ccb0699bad",
+  "verified_files": 14,
+  "modes": {
+    "config.json": "downloaded bytes",
+    "dataset.npz": "downloaded bytes",
+    "inference.py": "downloaded bytes",
+    "kernel_teacher.npz": "downloaded bytes",
+    "LICENSE": "downloaded bytes",
+    "metrics.json": "downloaded bytes",
+    "model.npz": "downloaded bytes",
+    "NOTICE": "downloaded bytes",
+    "protocol.json": "downloaded bytes",
+    "README.md": "downloaded bytes",
+    "reproducibility.json": "downloaded bytes",
+    "training_history.json": "downloaded bytes",
+    "VERIFICATION.md": "downloaded bytes",
+    "verification_report.json": "downloaded bytes"
+  }
+}

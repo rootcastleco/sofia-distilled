@@ -4,7 +4,6 @@ language:
 license: apache-2.0
 base_model:
 - Qwen/Qwen2.5-0.5B-Instruct
-base_model_relation: distillation
 library_name: transformers
 pipeline_tag: text-generation
 tags:

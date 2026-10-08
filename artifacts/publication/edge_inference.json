@@ -1,0 +1,14 @@
+{
+  "label": "bearing_impulses",
+  "probabilities": {
+    "healthy": 0.06874702557483497,
+    "imbalance": 0.0626533932728016,
+    "misalignment": 0.06407057242957455,
+    "bearing_impulses": 0.737895879848038,
+    "rubbing": 0.06663312887475105
+  },
+  "max_probability": 0.737895879848038,
+  "out_of_training_range": false,
+  "feature_schema": "sofia.synthetic-vibration.v1",
+  "status": "experimental_synthetic_only"
+}

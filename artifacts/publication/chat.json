@@ -1,0 +1,29 @@
+{
+  "repo": "rootcastleengineering/sofia-chat-distilled-v0.1",
+  "revision": "55194170dbeb58e1a026d9e90825f73a75705463",
+  "verified_files": 22,
+  "modes": {
+    "added_tokens.json": "downloaded bytes",
+    "chat_template.jinja": "downloaded bytes",
+    "config.json": "downloaded bytes",
+    "dataset.jsonl": "downloaded bytes",
+    "generation_config.json": "downloaded bytes",
+    "kernel_landmarks.npy": "downloaded bytes",
+    "LICENSE": "downloaded bytes",
+    "merges.txt": "downloaded bytes",
+    "metrics.json": "downloaded bytes",
+    "model.safetensors": "downloaded bytes",
+    "NOTICE": "downloaded bytes",
+    "README.md": "downloaded bytes",
+    "reproducibility.json": "downloaded bytes",
+    "special_tokens_map.json": "downloaded bytes",
+    "test_generations.json": "downloaded bytes",
+    "tokenizer.json": "downloaded bytes",
+    "tokenizer_config.json": "downloaded bytes",
+    "training_config.json": "downloaded bytes",
+    "training_history.json": "downloaded bytes",
+    "VERIFICATION.md": "downloaded bytes",
+    "verification_report.json": "downloaded bytes",
+    "vocab.json": "downloaded bytes"
+  }
+}
